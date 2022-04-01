@@ -27,3 +27,18 @@
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
+
+.carousel-inner .item {
+  backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  opacity: 1;
+}
+
+body {
+  padding-top: 60px;
+}
+@media (max-width: 980px) {
+  body {
+    padding-top: 0;
+  }
+}
